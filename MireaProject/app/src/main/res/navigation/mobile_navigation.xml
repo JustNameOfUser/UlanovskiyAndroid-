@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_browser"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.BrowserFragment"
+        android:label="@string/menu_browser"
+        tools:layout="@layout/fragment_browser" />
+
+    <fragment
+        android:id="@+id/nav_calculator"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.CalculatorFragment"
+        android:label="@string/menu_calculator"
+        tools:layout="@layout/fragment_calculator" />
+
+    <fragment
+        android:id="@+id/nav_player"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.PlayerFragment"
+        android:label="@string/menu_player"
+        tools:layout="@layout/fragment_player" />
+
+    <fragment
+        android:id="@+id/nav_sensor"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.SensorFragment"
+        android:label="@string/menu_sensor"
+        tools:layout="@layout/fragment_sensor" />
+
+    <fragment
+        android:id="@+id/nav_voice_recorder"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.VoiceRecorderFragment"
+        android:label="@string/menu_voice_recorder"
+        tools:layout="@layout/fragment_voice_recorder" />
+
+    <fragment
+        android:id="@+id/nav_camera"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.CameraFragment"
+        android:label="@string/menu_camera"
+        tools:layout="@layout/fragment_camera" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/nav_stories"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.StoriesFragment"
+        android:label="@string/menu_stories"
+        tools:layout="@layout/fragment_stories" />
+
+    <fragment
+        android:id="@+id/nav_new_story"
+        android:name="com.mirea.ulanovsky.mireaproject.ui.NewStoryFragment"
+        android:label="@string/menu_new_story"
+        tools:layout="@layout/fragment_new_story" />
+
+</navigation>

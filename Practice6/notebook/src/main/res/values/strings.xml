@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Notebook</string>
+
+    <string name="default_file_name">file_name</string>
+    <string name="save_button_text">Save</string>
+    <string name="edit_title_hint">File name</string>
+    <string name="edit_text_hint">Write your text here</string>
+</resources>
